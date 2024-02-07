@@ -10,7 +10,7 @@ function DogDetails({ dog }) {
       <div className="col d-flex flex-column align-items-center">
         <img src={dog.src} alt={dog.name} />
         <h2>{dog.name}</h2>
-        <h3>{dog.age}</h3>
+        <h3>{dog.age} years old</h3>
         <ul>
           {dog.facts.map((fact, i) => (
             <li key={i}>{fact}</li>
